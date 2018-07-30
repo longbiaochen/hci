@@ -1,0 +1,12 @@
+body{
+	touch-action: manipulation;
+	text-align: center;
+	font-size: 18px;
+}
+
+.hint{
+	font-family: sans-serif;
+}
+#textarea{
+
+}

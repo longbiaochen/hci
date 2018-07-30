@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Traditional Text Input Emulator</title>
+		<link rel="stylesheet" href="css/virtual-keyboard.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/index.css">
+		<script src="js/virtual-keyboard.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script>
+			$(function(){
+				$('#trigger').click();
+			}
+			);
+		</script>
+	</head>
+
+	<body>
+		
+		<div class="hint">
+			<h5>Type:</h5>
+			<h3><u><b> i can eat glass without hurting myself </b></u></h3>
+			<h5>Use cycle button to cycle through words.</h5>
+		</div>
+
+		<textarea name="" id="textarea" cols="68" rows="10" virtual-keyboard></textarea>
+
+		<div class="virtual-keyboard-hook" data-target-id="textarea" data-keyboard-mapping="qwerty" id="trigger"></div>
+
+	</body>
+</html>
